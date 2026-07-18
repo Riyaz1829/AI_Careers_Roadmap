@@ -7,23 +7,7 @@ function Navbar() {
           AI Career GPS
         </h1>
 
-        {/* Navigation Links */}
-        <ul className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-          <li className="hover:text-blue-600 cursor-pointer transition">
-            Home
-          </li>
-          <li className="hover:text-blue-600 cursor-pointer transition">
-            Features
-          </li>
-          <li className="hover:text-blue-600 cursor-pointer transition">
-            About
-          </li>
-          <li className="hover:text-blue-600 cursor-pointer transition">
-            Contact
-          </li>
-        </ul>
-
-        {/* CTA Button */}
+        {/* Get Started Button */}
         <button className="bg-blue-600 text-white px-5 py-2 rounded-xl hover:bg-blue-700 transition">
           Get Started
         </button>
